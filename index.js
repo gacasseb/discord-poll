@@ -19,7 +19,6 @@ client.on('interactionCreate', async interaction => {
         democracia.create_poll(interaction);
 
     } else if (commandName === 'votar') {
-		console.log('entrou na rota de votação');
 		// Rota para registrar um voto
 		democracia.add_vote(interaction);
 		
